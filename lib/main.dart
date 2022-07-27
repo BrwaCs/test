@@ -72,7 +72,7 @@ class MyApp extends StatelessWidget {
               
            GestureDetector(
              onTap: () {
-
+      
              },
              child: Container(
                width: 260,
@@ -125,7 +125,7 @@ class MyApp extends StatelessWidget {
                ),
              ),
            ),
-           SizedBox(height:20,),
+           SizedBox(height:10,),
             Row(
               mainAxisAlignment:MainAxisAlignment.spaceEvenly,
               children: [
@@ -138,20 +138,20 @@ class MyApp extends StatelessWidget {
                   backgroundColor: Color.fromARGB(255, 176, 0, 229),
                   radius: 20,
                   child: FaIcon(FontAwesomeIcons.yahoo,color: Colors.black,size:20),
-
+      
                 ),
                 CircleAvatar(
                   backgroundColor: Color.fromARGB(255, 12, 125, 18),
                   radius: 20,
                   child: FaIcon(FontAwesomeIcons.message,color: Colors.black,),
-
+      
                 )
-
+      
               ],
             )
           ],
         )
-    
+        
       ),
     );
     
